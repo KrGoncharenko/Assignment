@@ -1,0 +1,34 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package assignment;
+
+/**
+ *
+ * @author kristinagoncarenko
+ */
+public class Assignment {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+    int a = 1;
+    int b = 2;
+
+System.out.println("value of a and b before swapping, a: " + a +" b: " + b);
+
+//swapping value of two numbers without using third variable
+a = a+ b; //now a is 3 and b is 2
+b = a -b; //now a is 3 but b is 1 (original value of a)
+a = a -b; //now a is 2 and b is 1, numbers are swapped
+
+System.out.println("value of a and b after swapping, a: " + a +" b: " + b);
+
+
+        // TODO code application logic here
+    }
+    
+}
